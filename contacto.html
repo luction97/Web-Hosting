@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img id="logo" src="img/M5-logo-azul.svg" alt="Logo Web Hosting"></a> </li>
+                <li id="home"><a href="index.html">HOME</a></li>
+                <li id="contacto"><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="subtitulo">
+        <p>¿Querés que nos contactemos con vos?</p>
+    </div>
+
+    <div class="container">
+        <form action="">
+                <label for="nombre">Nombre Completo <strong> *</strong></label>
+                <input type="text" required placeholder="Ejemplo: Lucas Siano">
+                <label for="email">Email<strong> *</strong></label>
+                <input type="email" required placeholder="ejemplo@email.com">
+                <label for="comentario">Comentario <strong> *</strong></label>
+                <textarea name="comentario" id="comentario" placeholder="Escribe tu comentario.."></textarea required>
+                    <button onclick="alert('ENVIADO!')">Enviar</button>
+                </form>
+    </div>
+
+
+
+</body>
+
+</html>
